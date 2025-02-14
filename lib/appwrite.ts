@@ -13,7 +13,7 @@ export const client = new Client();
 client
   .setEndpoint(config.endpoint!)
   .setProject(config.projectId!)
-  .setProject(config.platform!);
+  .setPlatform(config.platform!);
 
 export const avatar = new Avatars(client);
 export const account = new Account(client);
