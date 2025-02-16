@@ -3,7 +3,6 @@ import Filters from "@/components/Filters";
 import Search from "@/components/Search";
 
 import icons from "@/constants/icons";
-import images from "@/constants/images";
 import { useGlobalContext } from "@/lib/global-provider";
 import {
   SafeAreaView,
@@ -64,7 +63,7 @@ export default function Index() {
               </View>
 
               <FlatList
-                data={[1, 2, 3]}
+                data={[5, 6, 7]}
                 renderItem={({ item }) => <FeaturedCard />}
                 keyExtractor={(item) => item.toString()}
                 horizontal
