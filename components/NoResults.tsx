@@ -10,7 +10,6 @@ const NoResults = () => {
         className="w-11/12 h-80"
         resizeMode="contain"
       />
-      \
       <Text className="text-2xl font-rubik-bold text-black-200 mt-5">
         No Results
       </Text>
